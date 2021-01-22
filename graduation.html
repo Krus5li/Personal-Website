@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>About Me</title>
+  </head>
+  <body class="grad-img" onload = "dateGrabber()">
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="homePage.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="graduation.html" class="nav-link">
+                Graduation/Current Standing
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="about.html" class="nav-link">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Contact Information
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="Graduation">
+      <h1 class="lg-heading">
+        Graduation
+        <span class="text-secondary">Countdown</span>
+      </h1>
+      <h1 id="timer"></h1>
+      <h3 class = "lg-heading">
+        <span class = "text-secondary">Current Standing</span>
+      </h3>
+      <h2 id = "standing" style = "font-size: 3.5rem;text-align: center;padding: 5rem;"></h2>
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
