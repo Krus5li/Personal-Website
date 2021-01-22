@@ -11,9 +11,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>About Me</title>
+    <title>Kenneth Rusli</title>
   </head>
-  <body onload = "dateGrabber()">
+  <body id="bg-img">
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -26,17 +26,17 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">
+          <li class="nav-item current">
+            <a href="homePage.html" class="nav-link">
               Home
             </a>
           </li>
           <li class="nav-item">
             <a href="graduation.html" class="nav-link">
-                Graduation/Current Standing
+              Graduation/Current Standing
             </a>
           </li>
-          <li class="nav-item current">
+          <li class="nav-item">
             <a href="about.html" class="nav-link">
               About
             </a>
@@ -54,62 +54,26 @@
         </ul>
       </nav>
     </header>
-    <main id="about">
+    <main id="home">
       <h1 class="lg-heading">
-        About
-        <span class="text-secondary">Me</span>
+        Kenneth <span class="text-secondary">Rusli</span>
       </h1>
       <h2 class="sm-heading">
-        My Background
+        Computer Science & Engineer | Self Taught Web-Developer
       </h2>
-      <div class="about-info">
-        <img src="img/mypic.jpg" alt="Kenneth Rusli" class="bio-image" />
-
-        <div class="bio">
-          <h3 class="text-secondary">BIO</h3>
-          <p>
-            Hello, my name is Kenneth Rusli an international student from Indonesia, 
-            currently, I am a <span id = "standing" style = "text-decoration:underline;"></span> from the University of Wisconsin-Madison
-            double majoring in Computer Engineering and Computer Science 
-          </p>
-        </div>
-
-        <div class="job job-1">
-          <h3>Student Front-End Developer</h3>
-          <h5>University of Wisconsin-Madison, USA</h5>
-          <h6>10/20-Present</h6>
-          <p>
-            Working for the Office of Human-Resources as a part of their dedicated, web development team, 
-            helped resolve dozens of pre-existing and new issues, as well as help implement applications using Vue.js on the website
-            <a style = "color: #eca711; text-decoration:underline;" href = "https://hr.wisc.edu">https://hr.wisc.edu</a>.  
-          </p>
-        </div>
-
-        <div class="job job-2">
-          <h3>Web Developer and Administrator</h3>
-          <h5>PPID (International Indonesian Student Association)</h5>
-          <h6>06/20-Present</h6>
-          <p>
-            Redesigned the entire existing website used by the global Indonesian Student Association that trafficks thousands of viewers 
-            everyday. Styles and applications on the website are created through raw CSS and Javascript, alongside some pre-existing 
-            frameworks. Website is managed mainly through wordpress. Current website is at: <a href = "https://ppi.id" style = "color: #eca711; text-decoration: underline;">https://ppi.id</a> 
-          </p>
-        </div>
-
-        <div class="job job-3">
-          <h3></h3>
-          <h5></h5>
-          <h6></h6>
-          <p>
-            
-          </p>
-        </div>
+      <div class="icons">
+        <a href="projects.html" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-angellist fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kenneth-rusli/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/Krus5li" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
       </div>
     </main>
 
-    <footer id="main-footer">
-      Copyright &copy; 2019
-    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
